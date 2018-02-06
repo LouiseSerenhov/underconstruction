@@ -6008,14 +6008,14 @@ color: none !important;
 
 }
 
-.borderinfo {
+/* .borderinfo {
   border-style: solid;
   border-width: 1px;
   border-color: white;
   padding: 10px;
   color: white;
 
-}
+} */
 
 #link {
   position:relative;
@@ -6030,3 +6030,21 @@ z-index: 2;
 .content-center{
   z-index: 1;
 }
+
+@media (max-width: 600px)  {
+  .phonetext1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .phonetext2 {
+    font-size: 25px;
+  }
+.phoneloggo {
+  text-align: center !important;
+  padding-left: 30px;
+  margin-top: 0px;
+}
+}
+
+
