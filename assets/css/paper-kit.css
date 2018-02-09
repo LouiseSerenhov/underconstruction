@@ -6031,6 +6031,24 @@ z-index: 2;
   z-index: 1;
 }
 
+.loggotext{
+  position: relative;
+  top: -220px;
+  left: -30px;
+}
+
+
+
+#nc-minimal-down {
+  font-size: 35px;
+}
+
+.arrow{
+  position: relative;
+  bottom: -150px;
+  
+}
+
 @media (max-width: 600px)  {
   .phonetext1 {
     font-size: 20px;
@@ -6040,18 +6058,13 @@ z-index: 2;
   .phonetext2 {
     font-size: 25px;
   }
-.phoneloggo {
-  text-align: center !important;
-  padding-left: 30px;
-  margin-top: 0px;
-}
+
+
+.loggotext{
+  position: relative;
+  top: -220px;
+  left: 0px;
 }
 
-#nc-minimal-down {
-  font-size: 35px;
 }
 
-.arrow{
-  padding-top: 270px;
-  
-}
