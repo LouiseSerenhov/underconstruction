@@ -6034,7 +6034,7 @@ z-index: 2;
 .loggotext{
   position: relative;
   top: -220px;
-  left: -30px;
+  left: -200px;
 }
 
 
@@ -6047,6 +6047,16 @@ z-index: 2;
   position: relative;
   bottom: -150px;
   
+}
+
+@media (max-width: 1300px)  {
+
+  .loggotext{
+    position: relative;
+    top: -190px;
+    left: 0px;
+  }
+
 }
 
 @media (max-width: 600px)  {
